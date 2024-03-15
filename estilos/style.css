@@ -25,19 +25,29 @@ main{
     width: 100vw;
 }
 
-section{
+section#login{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    overflow: hidden;
 
     background-color: white;
     width: 250px;
     height: 500px;
     border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.712);
 
 }
 
 section#login > div#imagem{
-    background-color: #5f2c82 url(../imagens/login.jpg);
+    display: block;
+    background: #5f2c82 url(../imagens/login.jpg) no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+section#login > div#fromulario{
+    display: block;
+    padding: 10px;
 }
