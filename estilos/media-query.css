@@ -16,6 +16,7 @@ TV: acima de 1201px
     }
     section#login{
         width: 80vw;
+        height: 280px;
     }
 
     section#login > div#imagem{
@@ -36,6 +37,7 @@ TV: acima de 1201px
     }
     section#login{
         width: 950px;
+        height: 350px;
     }
 
     section#login > div#imagem{
